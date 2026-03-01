@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="中老年人豆包学习开源教程：一步一图、可复制提示词、长辈模式、安全提醒与家庭协助清单。">
+    <title>长辈豆包学习站 - 开源可视化教程</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="nav-container">
+            <a class="logo" href="#top">🫘 长辈豆包学习站</a>
+            <div class="nav-actions">
+                <button id="modeToggle" class="mode-toggle" type="button" aria-pressed="false">长辈模式：关</button>
+                <button id="navToggle" class="nav-toggle" type="button" aria-expanded="false" aria-controls="mainNav">菜单</button>
+            </div>
+            <div class="nav-links" id="mainNav">
+                <a href="#start">快速开始</a>
+                <a href="#features">核心功能</a>
+                <a href="#prompts">常用话术</a>
+                <a href="#methods">具体方法</a>
+                <a href="#scenes">实用场景</a>
+                <a href="#senior">长辈专区</a>
+                <a href="#safety">安全提醒</a>
+                <a href="#family">家人协助</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="top">
+        <div class="container hero-content">
+            <p class="hero-kicker">开源 · 免费阅读 · 持续更新</p>
+            <h1>让中老年人今天就学会用豆包</h1>
+            <p class="subtitle">一步一图、句句可复制、家人可直接照着教。先会用，再用好，再用得安心。</p>
+            <div class="hero-buttons">
+                <a href="#start" class="btn btn-primary">立即开始（3分钟）</a>
+                <a href="#senior" class="btn btn-secondary">进入长辈专区（大字版）</a>
+            </div>
+            <div class="hero-meta">
+                <span>✅ 信息核验日期：2026-03-01（美国时区）</span>
+                <a href="https://www.doubao.com/download" target="_blank" rel="noopener noreferrer">官方入口</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="trust-bar">
+        <div class="container trust-grid">
+            <div class="trust-item">
+                <strong>1条主线</strong>
+                <span>先会语音，再会图文</span>
+            </div>
+            <div class="trust-item">
+                <strong>3分钟上手</strong>
+                <span>下载、登录、开口问</span>
+            </div>
+            <div class="trust-item">
+                <strong>18组话术</strong>
+                <span>覆盖健康、翻译、图片、出行、家庭教学</span>
+            </div>
+            <div class="trust-item">
+                <strong>双重提醒</strong>
+                <span>隐私保护 + 健康免责声明</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="what">
+        <div class="container">
+            <h2>豆包是什么？</h2>
+            <div class="intro-card">
+                <div class="intro-icon">🤖</div>
+                <div class="intro-text">
+                    <p><strong>豆包是 AI 智能助手</strong>，可以像聊天一样提问，帮助你处理日常信息、写作、翻译、看图识字等任务。</p>
+                    <ul class="feature-list">
+                        <li>✅ 问日常问题：天气、生活常识、出行建议</li>
+                        <li>✅ 写常用文字：祝福语、通知、请假说明</li>
+                        <li>✅ 看图识字：药盒、菜单、说明书、路牌</li>
+                        <li>✅ 语音交互：不会打字也能用</li>
+                        <li>⚠️ 费用与功能以豆包官方页面实时说明为准</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt" id="start">
+        <div class="container">
+            <h2>🚀 3 分钟快速开始</h2>
+            <p class="section-desc">先用手机学会，再扩展到电脑。每一步都尽量一句话说明。</p>
+
+            <div class="device-tabs" role="tablist" aria-label="设备切换">
+                <button class="tab-btn active" type="button" data-tab="phone" role="tab" aria-selected="true">📱 手机（推荐）</button>
+                <button class="tab-btn" type="button" data-tab="computer" role="tab" aria-selected="false">💻 电脑网页</button>
+            </div>
+
+            <div class="tab-content active" id="phone" role="tabpanel">
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>下载豆包 App</h3>
+                            <p><strong>苹果：</strong>打开 App Store，搜索“豆包”，点击“获取”。</p>
+                            <p><strong>安卓：</strong>优先走豆包官方下载页或手机官方应用商店。</p>
+                            <div class="method-tip">
+                                <p><strong>操作要点：</strong>只从官方入口下载，避免来历不明安装包。</p>
+                                <p><strong>可直接说：</strong>请告诉我官方下载安装步骤，分 3 步。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>登录账号</h3>
+                            <p>打开 App，选择手机号登录，输入验证码即可。</p>
+                            <div class="method-tip">
+                                <p><strong>操作要点：</strong>验证码只输入在官方 App，不转发给任何人。</p>
+                                <p><strong>可直接说：</strong>请提醒我登录时的安全注意事项，给 3 条。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>先学会语音提问</h3>
+                            <p><strong>长按麦克风按钮说一句话：</strong>今天天气怎么样。</p>
+                            <p>说完松开，等待回复；听不懂就说“请再简单一点”。</p>
+                            <div class="method-tip">
+                                <p><strong>操作要点：</strong>先短句，再追问；一轮只解决一个问题。</p>
+                                <p><strong>可直接说：</strong>我没听懂，请再说一遍，分 3 步。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="success-tip">🎉 到这里你已经完成“第一次可用”。接下来是“常用场景”与“安全使用”。</div>
+            </div>
+
+            <div class="tab-content" id="computer" role="tabpanel">
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>打开官网</h3>
+                            <p>浏览器输入 <code>www.doubao.com</code> 并回车。</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>登录账号</h3>
+                            <p>使用手机号或官方支持的登录方式。</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>先问简单问题</h3>
+                            <p>先发“请用 3 条告诉我今天该做什么”。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="features">
+        <div class="container">
+            <h2>💡 核心功能一览</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">💬</div>
+                    <h3>智能问答</h3>
+                    <p>日常问题先问它，再做人工判断。</p>
+                    <div class="example-box">
+                        <p class="example-label">例子</p>
+                        <p class="example-text">“高血压日常饮食要注意什么？”</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">✍️</div>
+                    <h3>写作辅助</h3>
+                    <p>帮你起草短信、通知、朋友圈、请假条。</p>
+                    <div class="example-box">
+                        <p class="example-label">例子</p>
+                        <p class="example-text">“帮我写条生日祝福，50字内。”</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3>翻译解释</h3>
+                    <p>把外语翻译成简单中文，还能解释术语。</p>
+                    <div class="example-box">
+                        <p class="example-label">例子</p>
+                        <p class="example-text">“No smoking 是什么意思？”</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📷</div>
+                    <h3>看图识字</h3>
+                    <p>拍照上传后让它“先读图，再讲重点”。</p>
+                    <div class="example-box">
+                        <p class="example-label">例子</p>
+                        <p class="example-text">“把这张药盒说明读给我听。”</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3>联网总结</h3>
+                    <p>可让它给“短结论+下一步建议”。</p>
+                    <div class="example-box">
+                        <p class="example-label">例子</p>
+                        <p class="example-text">“请 3 条总结今天北京天气。”</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧭</div>
+                    <h3>分步教学</h3>
+                    <p>不会操作时让它按步骤教学。</p>
+                    <div class="example-box">
+                        <p class="example-label">例子</p>
+                        <p class="example-text">“分 3 步教我把字体调大。”</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt" id="prompts">
+        <div class="container">
+            <h2>📌 常用话术（点一下即可复制）</h2>
+            <p class="section-desc">不会提问就直接复用，先跑通最小动作。这里给你 18 条高频可复制模板。</p>
+            <div class="prompt-grid">
+                <article class="prompt-card">
+                    <h3>健康常识问法</h3>
+                    <pre>请用简单中文告诉我：高血压日常要注意什么？请分3条。</pre>
+                    <button class="copy-btn" type="button" data-copy="请用简单中文告诉我：高血压日常要注意什么？请分3条。">复制话术</button>
+                </article>
+                <article class="prompt-card">
+                    <h3>祝福短信</h3>
+                    <pre>帮我写一条生日祝福短信，送给老同学，50字以内，真诚一点。</pre>
+                    <button class="copy-btn" type="button" data-copy="帮我写一条生日祝福短信，送给老同学，50字以内，真诚一点。">复制话术</button>
+                </article>
+                <article class="prompt-card">
+                    <h3>图片识别</h3>
+                    <pre>请先识别图片内容，再用3句话告诉我最重要的信息。</pre>
+                    <button class="copy-btn" type="button" data-copy="请先识别图片内容，再用3句话告诉我最重要的信息。">复制话术</button>
+                </article>
+                <article class="prompt-card">
+                    <h3>翻译场景</h3>
+                    <pre>请把这句英文翻译成中文，并告诉我在生活中怎么用。</pre>
+                    <button class="copy-btn" type="button" data-copy="请把这句英文翻译成中文，并告诉我在生活中怎么用。">复制话术</button>
+                </article>
+                <article class="prompt-card">
+                    <h3>听不懂时追问</h3>
+                    <pre>我没听懂，请再说一遍，用更简单的话，分3步告诉我。</pre>
+                    <button class="copy-btn" type="button" data-copy="我没听懂，请再说一遍，用更简单的话，分3步告诉我。">复制话术</button>
+                </article>
+                <article class="prompt-card">
+                    <h3>家人代问</h3>
+                    <pre>请把下面内容改写成适合60岁长辈看的版本，短句、少术语。</pre>
+                    <button class="copy-btn" type="button" data-copy="请把下面内容改写成适合60岁长辈看的版本，短句、少术语。">复制话术</button>
+                </article>
+                <article class="prompt-card">
+                    <h3>药品说明简化</h3>
+                    <pre>请把这段药品说明翻成大白话：作用、怎么吃、要注意什么，各用1句话。</pre>
+                    <button class="copy-btn" type="button" data-copy="请把这段药品说明翻成大白话：作用、怎么吃、要注意什么，各用1句话。">复制话术</button>
+                </article>
+                <article class="prompt-card">
+                    <h3>体检术语解释</h3>
+                    <pre>请解释“甘油三酯偏高”是什么意思，并给3条日常建议，避免专业术语。</pre>
+                    <button class="copy-btn" type="button" data-copy="请解释“甘油三酯偏高”是什么意思，并给3条日常建议，避免专业术语。">复制话术</button>
+                </article>
+                <article class="prompt-card">
+                    <h3>行程规划</h3>
+                    <pre>帮我做3天旅行计划：每天去哪、怎么走、大概花费，用表格输出。</pre>
+                    <button class="copy-btn" type="button" data-copy="帮我做3天旅行计划：每天去哪、怎么走、大概花费，用表格输出。">复制话术</button>
+                </article>
+                <article class="prompt-card">
+                    <h3>家常菜步骤</h3>
+                    <pre>我有鸡蛋、西红柿、豆腐。请给3道菜，每道菜4步做法。</pre>
+                    <button class="copy-btn" type="button" data-copy="我有鸡蛋、西红柿、豆腐。请给3道菜，每道菜4步做法。">复制话术</button>
+                </article>
+                <article class="prompt-card">
+                    <h3>防诈骗核查</h3>
+                    <pre>我收到一条“紧急转账”消息，请帮我列出5条核查步骤，先核实再行动。</pre>
+                    <button class="copy-btn" type="button" data-copy="我收到一条“紧急转账”消息，请帮我列出5条核查步骤，先核实再行动。">复制话术</button>
+                </article>
+                <article class="prompt-card">
+                    <h3>长辈复述版</h3>
+                    <pre>请把上面的内容改成“我可以直接读给爸妈听”的口语版本，控制在120字内。</pre>
+                    <button class="copy-btn" type="button" data-copy="请把上面的内容改成“我可以直接读给爸妈听”的口语版本，控制在120字内。">复制话术</button>
+                </article>
+                <article class="prompt-card">
+                    <h3>学习任务拆解</h3>
+                    <pre>我要学会用豆包，请给我7天学习计划：每天10分钟、每天1个动作。</pre>
+                    <button class="copy-btn" type="button" data-copy="我要学会用豆包，请给我7天学习计划：每天10分钟、每天1个动作。">复制话术</button>
+                </article>
+                <article class="prompt-card">
+                    <h3>语音识别纠错</h3>
+                    <pre>你先复述你听到的内容，再回答；如果你不确定，请先问我确认。</pre>
+                    <button class="copy-btn" type="button" data-copy="你先复述你听到的内容，再回答；如果你不确定，请先问我确认。">复制话术</button>
+                </article>
+                <article class="prompt-card">
+                    <h3>照片内容总结</h3>
+                    <pre>请先告诉我图片里是什么，再用“重点3条+风险1条”总结。</pre>
+                    <button class="copy-btn" type="button" data-copy="请先告诉我图片里是什么，再用“重点3条+风险1条”总结。">复制话术</button>
+                </article>
+                <article class="prompt-card">
+                    <h3>通知改写</h3>
+                    <pre>请把这段通知改写成“老人群里可读”的版本：短句、礼貌、重点在前。</pre>
+                    <button class="copy-btn" type="button" data-copy="请把这段通知改写成“老人群里可读”的版本：短句、礼貌、重点在前。">复制话术</button>
+                </article>
+                <article class="prompt-card">
+                    <h3>家庭复盘</h3>
+                    <pre>请帮我生成“今天豆包使用复盘”：学会了什么、没学会什么、明天练什么。</pre>
+                    <button class="copy-btn" type="button" data-copy="请帮我生成“今天豆包使用复盘”：学会了什么、没学会什么、明天练什么。">复制话术</button>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="methods">
+        <div class="container">
+            <h2>🧩 12 个核心方法（可直接照做）</h2>
+            <p class="section-desc">每个方法都给你：场景、操作步骤、可复制 Prompt、追问方式。完整 30 法见下方入口。</p>
+            <div class="method-grid">
+                <article class="method-card">
+                    <h3>01 天气出门法</h3>
+                    <p class="method-steps">步骤：问天气 → 问穿衣建议 → 问是否带伞。</p>
+                    <p class="method-prompt">Prompt：请告诉我今天北京天气，并给穿衣建议。</p>
+                    <p class="method-followup">追问：请再给我“老人外出注意事项”3 条。</p>
+                </article>
+                <article class="method-card">
+                    <h3>02 医院就诊法</h3>
+                    <p class="method-steps">步骤：写清地点 → 让它给路线 → 让它做清单。</p>
+                    <p class="method-prompt">Prompt：我明天去协和医院，请给地铁和打车两种路线。</p>
+                    <p class="method-followup">追问：请再给我出门前必带清单。</p>
+                </article>
+                <article class="method-card">
+                    <h3>03 药盒识别法</h3>
+                    <p class="method-steps">步骤：上传图片 → 先识别文字 → 再讲重点。</p>
+                    <p class="method-prompt">Prompt：请先读图，再告诉我“作用-用法-注意事项”。</p>
+                    <p class="method-followup">追问：请把专业词换成家里老人能懂的话。</p>
+                </article>
+                <article class="method-card">
+                    <h3>04 体检解读法</h3>
+                    <p class="method-steps">步骤：贴结果 → 要求通俗解释 → 给日常建议。</p>
+                    <p class="method-prompt">Prompt：请解释体检报告里的异常项，分3条说明。</p>
+                    <p class="method-followup">追问：哪些情况必须立即去医院？</p>
+                </article>
+                <article class="method-card">
+                    <h3>05 家庭通知法</h3>
+                    <p class="method-steps">步骤：告诉对象 → 告诉语气 → 告诉字数。</p>
+                    <p class="method-prompt">Prompt：写一条家庭群通知，礼貌简短，60字内。</p>
+                    <p class="method-followup">追问：再给我正式版和口语版各一条。</p>
+                </article>
+                <article class="method-card">
+                    <h3>06 节日祝福法</h3>
+                    <p class="method-steps">步骤：指定对象 → 指定风格 → 给多个版本。</p>
+                    <p class="method-prompt">Prompt：帮我写3条生日祝福，真诚不俗套。</p>
+                    <p class="method-followup">追问：其中一条改成更幽默的版本。</p>
+                </article>
+                <article class="method-card">
+                    <h3>07 买菜做饭法</h3>
+                    <p class="method-steps">步骤：说食材 → 让它给菜谱 → 按步骤做。</p>
+                    <p class="method-prompt">Prompt：我有鸡蛋、豆腐、西红柿，请给3道菜做法。</p>
+                    <p class="method-followup">追问：请按“少油少盐”再改一版。</p>
+                </article>
+                <article class="method-card">
+                    <h3>08 旅行规划法</h3>
+                    <p class="method-steps">步骤：说天数 → 说预算 → 要求表格输出。</p>
+                    <p class="method-prompt">Prompt：帮我做成都3天行程，含预算和交通建议。</p>
+                    <p class="method-followup">追问：请再给一个“少走路版”。</p>
+                </article>
+                <article class="method-card">
+                    <h3>09 诈骗核查法</h3>
+                    <p class="method-steps">步骤：贴可疑信息 → 要求风险判断 → 要核查清单。</p>
+                    <p class="method-prompt">Prompt：请判断这条消息是否像诈骗，并给核查步骤。</p>
+                    <p class="method-followup">追问：按“先做什么后做什么”排序输出。</p>
+                </article>
+                <article class="method-card">
+                    <h3>10 学习计划法</h3>
+                    <p class="method-steps">步骤：定目标 → 定时长 → 让它分天输出。</p>
+                    <p class="method-prompt">Prompt：给我7天豆包学习计划，每天10分钟。</p>
+                    <p class="method-followup">追问：请加“每天自测1题”。</p>
+                </article>
+                <article class="method-card">
+                    <h3>11 家人教学法</h3>
+                    <p class="method-steps">步骤：输入原文 → 要求长辈可读版 → 生成讲解稿。</p>
+                    <p class="method-prompt">Prompt：把这段话改写成60岁长辈可听懂版本。</p>
+                    <p class="method-followup">追问：再给我“我可以读给爸妈听”的口语稿。</p>
+                </article>
+                <article class="method-card">
+                    <h3>12 每日复盘法</h3>
+                    <p class="method-steps">步骤：回顾当天 → 总结得失 → 生成明日动作。</p>
+                    <p class="method-prompt">Prompt：请帮我做今天豆包使用复盘。</p>
+                    <p class="method-followup">追问：请生成明天3个可执行动作。</p>
+                </article>
+            </div>
+            <div class="method-more">
+                <p>📘 想看完整版？打开 <code>docs/practical-methods.md</code>，内含 <strong>30 个具体使用方法</strong>（含一页导航、验收标准）。</p>
+                <a class="method-link method-link-secondary" href="../docs/practical-methods-top10.md" target="_blank" rel="noopener noreferrer">查看 Top 10 发布版</a>
+                <a class="method-link" href="../docs/practical-methods.md" target="_blank" rel="noopener noreferrer">查看 30 法完整版</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="scenes">
+        <div class="container">
+            <h2>🎯 8 个高频实用场景</h2>
+            <p class="section-desc">点击展开，直接照着说就能用。</p>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header" type="button">
+                        <span>1️⃣ 写朋友圈文案</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p><strong>你说：</strong>帮我写一段爬山朋友圈文案，轻松一点，80字以内。</p>
+                        <p><strong>效果：</strong>快速给出多个版本，可直接复制。</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header" type="button">
+                        <span>2️⃣ 健康常识参考</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p><strong>你问：</strong>糖尿病人吃水果要注意什么？</p>
+                        <p class="warning">⚠️ 提醒：健康信息仅供参考，涉及诊断和用药请咨询医生。</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header" type="button">
+                        <span>3️⃣ 写请假说明</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p><strong>你说：</strong>帮我写一封请假说明，原因是家人住院，请假3天。</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header" type="button">
+                        <span>4️⃣ 翻译药品说明</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p><strong>操作：</strong>上传药盒照片后问：这个药怎么服用，有什么注意点？</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header" type="button">
+                        <span>5️⃣ 冰箱食材做菜</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p><strong>你问：</strong>鸡蛋、西红柿、豆腐能做哪3道菜？按步骤写。</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header" type="button">
+                        <span>6️⃣ 帮孩子查作业</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p><strong>你说：</strong>帮我检查这张作业照片，指出错误并讲解原因。</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header" type="button">
+                        <span>7️⃣ 旅行行程规划</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p><strong>你说：</strong>成都3天行程，包含美食、交通、预算，按天给表格。</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header" type="button">
+                        <span>8️⃣ 聊天解闷</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p><strong>你可以说：</strong>讲个笑话；推荐80年代老歌；陪我聊10分钟。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section senior-section" id="senior">
+        <div class="container">
+            <h2 class="senior-title">👴👵 长辈专区</h2>
+            <p class="senior-subtitle">一页就够：字更大、步骤更短、话术可直接照读。</p>
+
+            <div class="senior-card">
+                <h3>🎤 最简单的动作：语音提问</h3>
+                <div class="senior-steps">
+                    <div class="senior-step">
+                        <div class="senior-step-num">①</div>
+                        <div class="senior-step-text">打开豆包 App</div>
+                    </div>
+                    <div class="senior-step">
+                        <div class="senior-step-num">②</div>
+                        <div class="senior-step-text">长按底部麦克风按钮说话</div>
+                    </div>
+                    <div class="senior-step">
+                        <div class="senior-step-num">③</div>
+                        <div class="senior-step-text">说：今天天气怎么样</div>
+                    </div>
+                    <div class="senior-step">
+                        <div class="senior-step-num">④</div>
+                        <div class="senior-step-text">松开后等回复，不懂就让它再讲简单点</div>
+                    </div>
+                </div>
+                <p class="senior-tip">💡 就像打电话一样，用说话就能完成大部分操作。</p>
+            </div>
+
+            <div class="senior-card">
+                <h3>📝 6 句常用话术</h3>
+                <div class="phrase-list">
+                    <div class="phrase-item"><span class="phrase-label">查天气：</span><span class="phrase-text">今天天气怎么样</span></div>
+                    <div class="phrase-item"><span class="phrase-label">写祝福：</span><span class="phrase-text">帮我写一条生日祝福短信</span></div>
+                    <div class="phrase-item"><span class="phrase-label">问健康：</span><span class="phrase-text">高血压平时要注意什么</span></div>
+                    <div class="phrase-item"><span class="phrase-label">看图片：</span><span class="phrase-text">帮我看图里写了什么</span></div>
+                    <div class="phrase-item"><span class="phrase-label">做菜：</span><span class="phrase-text">红烧肉怎么做，分步骤说</span></div>
+                    <div class="phrase-item"><span class="phrase-label">没听懂：</span><span class="phrase-text">请再说一遍，用更简单的话</span></div>
+                </div>
+            </div>
+
+            <div class="senior-card">
+                <h3>❓ 常见问题</h3>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <p class="faq-q">Q：要收费吗？</p>
+                        <p class="faq-a">A：不同功能和时期可能有差异，以官方页面说明为准。</p>
+                    </div>
+                    <div class="faq-item">
+                        <p class="faq-q">Q：会泄露隐私吗？</p>
+                        <p class="faq-a">A：不要输入银行卡号、密码、验证码、身份证号等敏感信息。</p>
+                    </div>
+                    <div class="faq-item">
+                        <p class="faq-q">Q：它听不懂怎么办？</p>
+                        <p class="faq-a">A：说慢一点、分短句，或直接说“请分3步说”。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt" id="safety">
+        <div class="container">
+            <h2>🛡️ 安全提醒（必须看）</h2>
+            <div class="safety-grid">
+                <article class="safety-card">
+                    <h3>隐私保护</h3>
+                    <ul>
+                        <li>不发送银行卡号、密码、验证码。</li>
+                        <li>不上传身份证、病历原件等敏感证件。</li>
+                        <li>涉及家庭地址和电话时做脱敏。</li>
+                    </ul>
+                </article>
+                <article class="safety-card">
+                    <h3>健康信息边界</h3>
+                    <ul>
+                        <li>AI 仅做信息参考，不替代医生诊断。</li>
+                        <li>涉及用药、慢病管理，必须线下就医确认。</li>
+                        <li>出现不适症状，优先医院而不是继续追问。</li>
+                    </ul>
+                </article>
+                <article class="safety-card">
+                    <h3>防诈骗提醒</h3>
+                    <ul>
+                        <li>AI 不会要求你转账或提供验证码。</li>
+                        <li>看到“紧急转账”一律先联系家人核实。</li>
+                        <li>不点击陌生链接，不安装来历不明软件。</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="family">
+        <div class="container">
+            <h2>👨‍👩‍👧‍👦 家人协助清单</h2>
+            <p class="section-desc">给子女/照护者：按这个清单做，长辈更快上手。</p>
+            <div class="family-grid">
+                <div class="family-card">
+                    <h3>首次 20 分钟</h3>
+                    <ul>
+                        <li>帮长辈完成安装与登录。</li>
+                        <li>演示 2 次语音提问。</li>
+                        <li>把“常用话术”存到手机便签。</li>
+                        <li>把字体和音量调到舒适档位。</li>
+                    </ul>
+                </div>
+                <div class="family-card">
+                    <h3>每周 10 分钟复习</h3>
+                    <ul>
+                        <li>复习 1 个场景：天气、祝福、做菜。</li>
+                        <li>提醒“隐私三不发”。</li>
+                        <li>新增 1 句家里常用话术。</li>
+                        <li>记录 1 个真实使用成功案例。</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt" id="tips">
+        <div class="container">
+            <h2>🏆 进阶技巧</h2>
+            <p class="section-desc">学会这 4 条，回答会明显更好。</p>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <h3>1. 说清楚你要什么</h3>
+                    <div class="tip-compare">
+                        <div class="tip-bad">
+                            <span class="tip-label">❌ 不好</span>
+                            <p>帮我写个文章</p>
+                        </div>
+                        <div class="tip-good">
+                            <span class="tip-label">✅ 更好</span>
+                            <p>帮我写一段给60岁读者看的健康饮食建议，150字以内，语言通俗。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tip-card">
+                    <h3>2. 不满意就追问</h3>
+                    <p>可以说：再短一点、加具体例子、改成表格、按步骤写。</p>
+                </div>
+                <div class="tip-card">
+                    <h3>3. 大任务拆小步</h3>
+                    <p>先要提纲，再要正文，最后要“今天就能做”的清单。</p>
+                </div>
+                <div class="tip-card">
+                    <h3>4. 重要信息要核实</h3>
+                    <p>涉及健康、法律、金钱内容时，必须做人工核验。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>📖 本教程免费开源，面向中老年学习场景持续更新</p>
+            <p>🕒 最近核验：2026-03-01（美国时区）</p>
+            <p class="footer-links">
+                <a href="https://github.com/AIPMAndy/doubao-guide" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> ·
+                <a href="https://www.doubao.com" target="_blank" rel="noopener noreferrer">豆包官网</a> ·
+                <a href="https://www.doubao.com/agreement/instruction" target="_blank" rel="noopener noreferrer">豆包使用说明</a>
+            </p>
+            <p class="copyright">Made with ❤️ by Andy · 2026</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

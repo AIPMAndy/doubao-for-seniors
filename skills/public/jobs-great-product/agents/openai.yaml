@@ -1,0 +1,4 @@
+interface:
+  display_name: "乔布斯式产品打造"
+  short_description: "乔布斯方法：定义价值、简化体验、打造可发布伟大产品方案"
+  default_prompt: "请用乔布斯式产品方法，基于我的目标用户和场景，输出从产品定义到发布的最小可行方案。"
