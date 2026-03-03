@@ -130,6 +130,6 @@
 - 网页实战：`docs/web.md`
 - 手机实战：`docs/ios.md`、`docs/android.md`
 - 桌面效率：`docs/desktop.md`
-- API 开发：`docs/api-ark.md`
+- API 开发：待补充（欢迎 PR）
 
 > 你也可以把本页 prompt 挑选后放进 `site/index.html` 的可复制卡片区，做成公开模板库。
