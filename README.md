@@ -14,6 +14,15 @@
 
 它不讲大模型概念，重点是让长辈今天就能开始用、并且敢持续用。
 
+## 👥 从这里开始
+
+| 你的角色 | 建议先看 |
+|----------|----------|
+| 长辈用户 | [3 分钟上手](docs/senior-guide.md) |
+| 子女/家人 | [家人协助手册](docs/family-guide.md) |
+| 想直接复制话术 | [话术模板库](docs/prompt-library.md) |
+| 项目维护者 | [发布发射包](docs/launch-kit.md) |
+
 ## 🆚 为什么选这个项目？
 
 | 维度 | 通用 AI 教程 | 短视频碎片教学 | 本项目 |
@@ -76,6 +85,11 @@ python3 -m http.server 4173
 # 打开 http://localhost:4173/site/
 ```
 
+## 🔗 官方链接
+
+- 豆包下载：<https://www.doubao.com/download>
+- 豆包使用说明：<https://www.doubao.com/agreement/instruction>
+
 ## 🗺️ Roadmap
 
 - [x] 长辈上手主文档与 FAQ
@@ -85,6 +99,13 @@ python3 -m http.server 4173
 - [ ] 增加更多不同年龄段案例
 - [ ] 增加每周更新日志与版本发布节奏
 
+## 📣 近期更新（2026-03-04）
+
+- 新增双语 README 导航和结构优化
+- 新增 CONTRIBUTING 与 Issue 模板
+- 新增 [发布发射包](docs/launch-kit.md)（Release + 分发文案可直接复制）
+- 修复站点仓库链接与文档坏引用
+
 ## 🤝 贡献
 
 欢迎提交：真实案例、话术模板、教程优化、Bug 修复。
@@ -93,6 +114,8 @@ python3 -m http.server 4173
 
 - 🐛 Bug 反馈：<https://github.com/AIPMAndy/doubao-for-seniors/issues>
 - 💡 功能建议：<https://github.com/AIPMAndy/doubao-for-seniors/issues>
+
+维护者可直接使用 [发射包](docs/launch-kit.md) 完成首发与复盘节奏。
 
 ## 🔒 安全与免责声明
 

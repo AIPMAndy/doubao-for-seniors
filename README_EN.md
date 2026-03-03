@@ -14,6 +14,15 @@ An open-source onboarding project for users aged 50+ and family members who help
 
 This project does not focus on AI theory. It focuses on practical first success and repeated use.
 
+## 👥 Start Here By Role
+
+| Your Role | Read This First |
+|-----------|-----------------|
+| Senior user | [3-Minute Starter](docs/senior-guide.md) |
+| Child/family helper | [Family Guide](docs/family-guide.md) |
+| Prompt copy-and-use | [Prompt Library](docs/prompt-library.md) |
+| Project maintainer | [Launch Kit](docs/launch-kit.md) |
+
 ## 🆚 Why This Project?
 
 | Dimension | Generic AI Tutorials | Short Video Fragments | This Project |
@@ -76,6 +85,11 @@ python3 -m http.server 4173
 # Open http://localhost:4173/site/
 ```
 
+## 🔗 Official Links
+
+- Doubao download: <https://www.doubao.com/download>
+- Doubao instructions: <https://www.doubao.com/agreement/instruction>
+
 ## 🗺️ Roadmap
 
 - [x] Senior starter docs and FAQ
@@ -85,6 +99,13 @@ python3 -m http.server 4173
 - [ ] Add more age-segmented real cases
 - [ ] Add regular changelog and release cadence
 
+## 📣 Recent Updates (2026-03-04)
+
+- Added bilingual README navigation and improved structure
+- Added CONTRIBUTING and issue templates
+- Added [Launch Kit](docs/launch-kit.md) with release/distribution copy
+- Fixed repo link in the site footer and broken doc reference
+
 ## 🤝 Contributing
 
 Contributions are welcome: real use cases, better prompts, teaching improvements, and bug fixes.
@@ -93,6 +114,8 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening an issue/PR.
 
 - 🐛 Bug reports: <https://github.com/AIPMAndy/doubao-for-seniors/issues>
 - 💡 Feature ideas: <https://github.com/AIPMAndy/doubao-for-seniors/issues>
+
+Maintainers can use the [Launch Kit](docs/launch-kit.md) for publishing and weekly iteration.
 
 ## 🔒 Safety & Disclaimer
 
