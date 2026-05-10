@@ -1,15 +1,15 @@
-# 🌟 IPClaw 长辈版 - 让爸妈也能做自己的 IP
+# 🌟 IPClaw for Seniors - 让爸妈也能做自己的 IP
 
 [English](README_EN.md) | **简体中文**
 
-&gt; 3 分钟让爸妈发布第一条内容，30 天建立自己的个人 IP。
-&gt;
-&gt; 🔗 属于 [OpenClaw](https://github.com/openclaw/openclaw) 生态的垂直场景项目
+> 3 分钟让爸妈发布第一条内容，30 天建立自己的个人 IP。
+>
+> 🔗 属于 [OpenClaw](https://github.com/openclaw/openclaw) 生态的垂直场景项目
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![OpenClaw](https://img.shields.io/badge/OpenClaw-327k%20⭐-blue)](https://github.com/openclaw/openclaw)
-[![Stars](https://img.shields.io/github/stars/AIPMAndy/ipclaw-seniors?style=social)](https://github.com/AIPMAndy/ipclaw-seniors)
-[![Last Commit](https://img.shields.io/github/last-commit/AIPMAndy/ipclaw-seniors)](https://github.com/AIPMAndy/ipclaw-seniors/commits/main)
+[![Stars](https://img.shields.io/github/stars/AIPMAndy/IPClaw-for-Seniors?style=social)](https://github.com/AIPMAndy/IPClaw-for-Seniors)
+[![Last Commit](https://img.shields.io/github/last-commit/AIPMAndy/IPClaw-for-Seniors)](https://github.com/AIPMAndy/IPClaw-for-Seniors/commits/main)
 
 ## 🎯 这是什么？
 
@@ -108,8 +108,8 @@
 
 欢迎提交：真实案例、创作模板、教程优化、Bug 修复。
 
-- 🐛 Bug 反馈：<https://github.com/AIPMAndy/ipclaw-seniors/issues>
-- 💡 功能建议：<https://github.com/AIPMAndy/ipclaw-seniors/issues>
+- 🐛 Bug 反馈：<https://github.com/AIPMAndy/IPClaw-for-Seniors/issues>
+- 💡 功能建议：<https://github.com/AIPMAndy/IPClaw-for-Seniors/issues>
 
 ## 🔒 安全提示
 

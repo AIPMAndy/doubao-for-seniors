@@ -2,14 +2,14 @@
 
 **English** | [简体中文](README.md)
 
-&gt; 3 minutes to publish your first content, 30 days to build your personal IP.
-&gt;
-&gt; 🔗 A vertical scenario project in the [OpenClaw](https://github.com/openclaw/openclaw) ecosystem
+> 3 minutes to publish your first content, 30 days to build your personal IP.
+>
+> 🔗 A vertical scenario project in the [OpenClaw](https://github.com/openclaw/openclaw) ecosystem
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![OpenClaw](https://img.shields.io/badge/OpenClaw-327k%20⭐-blue)](https://github.com/openclaw/openclaw)
-[![Stars](https://img.shields.io/github/stars/AIPMAndy/ipclaw-seniors?style=social)](https://github.com/AIPMAndy/ipclaw-seniors)
-[![Last Commit](https://img.shields.io/github/last-commit/AIPMAndy/ipclaw-seniors)](https://github.com/AIPMAndy/ipclaw-seniors/commits/main)
+[![Stars](https://img.shields.io/github/stars/AIPMAndy/IPClaw-for-Seniors?style=social)](https://github.com/AIPMAndy/IPClaw-for-Seniors)
+[![Last Commit](https://img.shields.io/github/last-commit/AIPMAndy/IPClaw-for-Seniors)](https://github.com/AIPMAndy/IPClaw-for-Seniors/commits/main)
 
 ## 🎯 What Is This?
 
@@ -89,8 +89,8 @@ Personal IP is your **unique value and influence**:
 
 Contributions welcome: real cases, content templates, tutorial improvements, and bug fixes.
 
-- 🐛 Bug reports：<https://github.com/AIPMAndy/ipclaw-seniors/issues>
-- 💡 Feature ideas：<https://github.com/AIPMAndy/ipclaw-seniors/issues>
+- 🐛 Bug reports：<https://github.com/AIPMAndy/IPClaw-for-Seniors/issues>
+- 💡 Feature ideas：<https://github.com/AIPMAndy/IPClaw-for-Seniors/issues>
 
 ## 🔒 Safety Tips
 
