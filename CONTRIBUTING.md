@@ -1,11 +1,12 @@
 # 贡献指南 / Contributing
 
-感谢你愿意帮助这个项目，让更多长辈更容易用上 AI。
+感谢你愿意帮助这个项目，让更多 50+ 也能做自己的 IP。
 
 ## 1. 可以贡献什么
 
-- 长辈真实使用案例（优先）
-- 更好理解的提示词模板
+- 长辈真实使用案例和成功故事（优先）
+- 更好用的提示词模板
+- 内容创作技巧和经验分享
 - 教学流程优化（减少步骤、减少术语）
 - 文档错别字、错误链接、Bug 修复
 - 网站可读性/无障碍优化
@@ -55,5 +56,5 @@
 
 ## 6. 联系方式
 
-- Issue：<https://github.com/AIPMAndy/doubao-for-seniors/issues>
+- Issue：<https://github.com/AIPMAndy/ipclaw-seniors/issues>
 - 作者微信：`AIPMAndy`
