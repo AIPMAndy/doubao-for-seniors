@@ -1,142 +1,113 @@
-# 🧓 Doubao for Seniors
+# 🌟 IPClaw for Seniors - Help Parents Build Their Own IP
 
 **English** | [简体中文](README.md)
 
-> Help parents speak to AI in 3 minutes and build a sustainable weekly habit in 7 days.
+&gt; 3 minutes to publish your first content, 30 days to build your personal IP.
+&gt;
+&gt; 🔗 A vertical scenario project in the [OpenClaw](https://github.com/openclaw/openclaw) ecosystem
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/AIPMAndy/doubao-for-seniors?style=social)](https://github.com/AIPMAndy/doubao-for-seniors)
-[![Last Commit](https://img.shields.io/github/last-commit/AIPMAndy/doubao-for-seniors)](https://github.com/AIPMAndy/doubao-for-seniors/commits/main)
+[![OpenClaw](https://img.shields.io/badge/OpenClaw-327k%20⭐-blue)](https://github.com/openclaw/openclaw)
+[![Stars](https://img.shields.io/github/stars/AIPMAndy/ipclaw-seniors?style=social)](https://github.com/AIPMAndy/ipclaw-seniors)
+[![Last Commit](https://img.shields.io/github/last-commit/AIPMAndy/ipclaw-seniors)](https://github.com/AIPMAndy/ipclaw-seniors/commits/main)
 
 ## 🎯 What Is This?
 
-An open-source onboarding project for users aged 50+ and family members who help them use Doubao.
+A vertical scenario project in the **IPClaw ecosystem** that helps people aged 50+ easily create their own personal IP (Intellectual Property/Personal Brand).
 
-This project does not focus on AI theory. It focuses on practical first success and repeated use.
+Not just "using AI", but "using AI to be yourself" - share your stories, experiences, and perspectives, and let more people see that life after 50 is equally wonderful.
 
-## 👥 Start Here By Role
+### What Is Personal IP?
+
+Personal IP is your **unique value and influence**:
+
+- Your life experiences (raising grandchildren, health tips, cooking)
+- Your professional skills (accumulated from your career)
+- Your hobbies and interests (calligraphy, gardening, traveling)
+- Your unique stories (entrepreneurial experiences, life insights)
+
+### Why Is 50+ Ideal for Building IP?
+
+- ✅ **Rich experience**: Decades of life wisdom that young people don't have
+- ✅ **Time freedom**: More time for creation after retirement
+- ✅ **Authenticity**: Middle-aged sharing feels more trustworthy
+- ✅ **Differentiation**: Less competition, scarce content
+
+## 👥 Start Here
 
 | Your Role | Read This First |
 |-----------|-----------------|
-| Senior user | [3-Minute Starter](docs/senior-guide.md) |
-| Child/family helper | [Family Guide](docs/family-guide.md) |
-| Prompt copy-and-use | [Prompt Library](docs/prompt-library.md) |
-| Project maintainer | [Launch Kit](docs/launch-kit.md) |
+| First time with IP | [IP Starter Guide](docs/ip-starter.md) |
+| Want to create content | [Content Creation Guide](docs/content-creation.md) |
+| Want to know where to post | [Platform Guide](docs/platform-guide.md) |
+| Want ready templates | [IP Creation Prompt Library](docs/prompt-library.md) |
+| Children helping parents | [Family Guide](docs/family-guide.md) |
 
-## 🆚 Why This Project?
+## 🚀 3 Minutes to Publish Your First Content
 
-| Dimension | Generic AI Tutorials | Short Video Fragments | This Project |
-|-----------|----------------------|-----------------------|--------------|
-| Language clarity | Often technical | Usually incomplete | ✅ Plain language + step-by-step |
-| Family coaching | Rarely covered | Hard to replicate | ✅ Dedicated family playbook |
-| Prompt templates | Scattered examples | Hard to reuse | ✅ 50+ copy-ready prompts |
-| Safety boundaries | Often weak | Easy to miss | ✅ Built-in privacy and scam reminders |
-| Ongoing practice | No system | Hard to track | ✅ Weekly practice pattern |
+### Using Doubao (Simplest)
 
-## 🚀 3-Minute Quick Start
+1. Open Doubao App
+2. Say: "Help me write a WeChat Moment post about my daily morning walk experience"
+3. Copy the generated content to WeChat Moments
+4. Done! This is your first IP content
 
-### Self-learning path for seniors
+### Using IPClaw (More Powerful)
 
-1. Install Doubao from the official app store
-2. Sign in with phone number
-3. Tap microphone and say: "How is today's weather?"
-4. First success completed
+1. Install [OpenClaw](https://github.com/openclaw/openclaw)
+2. Use this project's Prompt Library
+3. Get more customized help
 
-### Family-assisted path
+## 💡 IP Types Anyone 50+ Can Do
 
-1. Read [Family Guide](docs/family-guide.md)
-2. Help with install + sign-in
-3. Demo one voice query
-4. Save common prompts in Notes
-5. Do one short weekly review
+| Type | Example | Best For |
+|------|---------|----------|
+| Health Expert | Share health and wellness experiences | Health-conscious retirees |
+| Culinary Master | Teach home cooking, health recipes | Cooking enthusiasts |
+| Gardening Enthusiast | Share plant care experiences | Garden lovers |
+| Travel Blogger | Share travel stories and tips | Travel enthusiasts |
+| Life Philosopher | Share career experiences, life stories | Those with rich life experiences |
+| Grandparenting Expert | Share childcare experiences | Grandparents raising grandchildren |
+| Calligraphy/Art | Share artwork and creative insights | Artistic seniors |
 
 ## 📚 Content Map
 
 | Doc | What You Get | Best For |
 |-----|--------------|----------|
-| [3-Minute Starter](docs/senior-guide.md) | Minimal setup + voice query | Senior self-learning |
-| [FAQ](docs/faq.md) | High-frequency questions | Seniors/families |
-| [Real Cases](docs/real-cases.md) | Practical examples | Inspiration |
-| [Family Guide](docs/family-guide.md) | Hands-on coaching flow | Children helping parents |
-| [Prompt Library](docs/prompt-library.md) | 50+ reusable prompts | Direct copy-and-use |
-| [30 Practical Methods](docs/practical-methods.md) | Scenario-based playbook | Advanced usage |
-| [Web Guide](docs/web.md) | Browser workflow | Seniors/families |
-| [iOS](docs/ios.md) / [Android](docs/android.md) | Platform-specific mobile steps | Seniors/families |
-| [Launch Kit](docs/launch-kit.md) | Release and distribution copy templates | Maintainers/promoters |
+| [IP Starter Guide](docs/ip-starter.md) | What is IP + Why + How to start | First time with IP |
+| [Content Creation Guide](docs/content-creation.md) | Write articles, shoot videos, create images | Quick content creation |
+| [Platform Guide](docs/platform-guide.md) | WeChat/Video Account/Douyin/Xiaohongshu comparison | Where to post |
+| [IP Creation Prompt Library](docs/prompt-library.md) | 50+ ready-to-use Prompts | Direct copy and use |
+| [Family Guide](docs/family-guide.md) | How children can help parents start | Children teaching parents |
 
-## 💬 5 Most Practical Scenarios
+## 🔗 Related Links
 
-| Scenario | Prompt Example |
-|----------|----------------|
-| Weather | "How is today's weather? Do I need an umbrella?" |
-| Greeting messages | "Write a birthday greeting for my old classmate." |
-| OCR from photos | "Please read the text in this photo." |
-| Translation | "What does this English sentence mean: Thank you" |
-| Health reference | "What should I pay attention to for high blood pressure diet?" |
-
-⚠️ Health-related output is for reference only. Always consult a doctor.
-
-## 🏃 Run The Website Locally
-
-```bash
-git clone https://github.com/AIPMAndy/doubao-for-seniors.git
-cd doubao-for-seniors
-python3 -m http.server 4173
-# Open http://localhost:4173/site/
-```
-
-## 🔗 Official Links
-
-- Doubao download: <https://www.doubao.com/download>
-- Doubao instructions: <https://www.doubao.com/agreement/instruction>
-
-## 🗺️ Roadmap
-
-- [x] Senior starter docs and FAQ
-- [x] Family coaching guide and prompt library
-- [x] Visual web tutorial
-- [ ] Add real screenshots and demo GIF
-- [ ] Add more age-segmented real cases
-- [ ] Add regular changelog and release cadence
-
-## 📣 Recent Updates (2026-03-04)
-
-- Added bilingual README navigation and improved structure
-- Added CONTRIBUTING and issue templates
-- Added [Launch Kit](docs/launch-kit.md) with release/distribution copy
-- Fixed repo link in the site footer and broken doc reference
+- **OpenClaw Main Project**：<https://github.com/openclaw/openclaw>
+- Doubao Download：<https://www.doubao.com/download>
 
 ## 🤝 Contributing
 
-Contributions are welcome: real use cases, better prompts, teaching improvements, and bug fixes.
+Contributions welcome: real cases, content templates, tutorial improvements, and bug fixes.
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening an issue/PR.
+- 🐛 Bug reports：<https://github.com/AIPMAndy/ipclaw-seniors/issues>
+- 💡 Feature ideas：<https://github.com/AIPMAndy/ipclaw-seniors/issues>
 
-- 🐛 Bug reports: <https://github.com/AIPMAndy/doubao-for-seniors/issues>
-- 💡 Feature ideas: <https://github.com/AIPMAndy/doubao-for-seniors/issues>
+## 🔒 Safety Tips
 
-Maintainers can use the [Launch Kit](docs/launch-kit.md) for publishing and weekly iteration.
-
-## 🔒 Safety & Disclaimer
-
-This project is for learning and reference only. It is not medical, legal, or investment advice.
-
-Never share:
-
-- ❌ ID card or bank card photos
-- ❌ Passwords or verification codes
-- ❌ Home address or phone numbers
+- Don't reveal home address or phone number in content
+- Don't share children's private information
+- Add disclaimer for health-related topics
 
 ## 👨‍💻 Author
 
-**AI酋长Andy** | Former AI Product Leader at Tencent and Baidu
+**AI Chief Andy** | Former AI Product Leader at Tencent and Baidu
 
 WeChat: `AIPMAndy` ｜ GitHub: [@AIPMAndy](https://github.com/AIPMAndy)
 
 ## 📄 License
 
-Apache License 2.0 with additional terms (see [LICENSE](LICENSE)).
+Apache License 2.0.
 
 ---
 
-⭐ If this helps your family, please give this project a Star.
+⭐ If this helps, please give a Star. Help more parents build their own IP!
